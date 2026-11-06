@@ -1,0 +1,51 @@
+/* 실습 1: body는 페이지 전체에 적용됩니다. 배경색을 바꿔 전체 분위기를 확인합니다. */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: /* 배경색 */;
+}
+
+/* 실습 2: 입력폼 박스의 크기, 여백, 배경색, 테두리를 지정합니다. */
+.form-box {
+  width: /* 박스 너비 */;
+  padding: /* 안쪽 여백 */;
+  background-color: /* 박스 배경색 */;
+  border: /* 테두리 */;
+}
+
+/* 실습 3: 제목의 글자 크기와 색상을 바꿔봅니다. */
+.page-title {
+  font-size: /* 글자 크기 */;
+  color: /* 글자색 */;
+}
+
+/* 실습 4: input과 select에 공통으로 적용할 입력칸 스타일입니다. */
+.input-field {
+  width: /* 입력칸 너비 */;
+  height: /* 입력칸 높이 */;
+  padding: /* 입력칸 안쪽 여백 */;
+  border: /* 입력칸 테두리 */;
+}
+
+/* 실습 5: 버튼 크기와 색상을 지정합니다. */
+.btn {
+  width: /* 버튼 너비 */;
+  height: /* 버튼 높이 */;
+  background-color: /* 버튼 배경색 */;
+  color: /* 버튼 글자색 */;
+  border: none;
+}
+
+/* 실습 6: 로그인 페이지의 회원가입 링크 영역을 꾸밉니다. */
+.link-text {
+  margin-top: /* 위 여백 */;
+  text-align: /* 글자 정렬 */;
+  color: /* 글자색 */;
+  font-size: /* 글자 크기 */;
+}
+
+/* 실습 7: 링크 색상과 밑줄 여부를 정합니다. */
+.link-text a {
+  color: /* 링크 색상 */;
+  text-decoration: /* 밑줄 여부 */;
+}
